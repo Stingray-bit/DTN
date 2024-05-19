@@ -24,9 +24,9 @@ The Opportunistic Networking Environment (ONE) simulator is used to evaluate DTN
 ## Design
 Two emergency scenarios were designed:
 1. **Scenario 1:** A distress signal is sent from a node near emergency facilities.
-       ![Scenario 1](images/image_0.jpeg)
+       ![Scenario 1](images/image_3.png)
 2. **Scenario 2:** A distress signal is sent from a remote node far from emergency facilities.
-       ![Scenario 2](images/image_1.png)
+       ![Scenario 2](images/image_4.png)
 
 ## Implementation
 The scenarios were implemented using the ONE simulator with the following setup:
@@ -36,19 +36,17 @@ The scenarios were implemented using the ONE simulator with the following setup:
 ## Evaluation
 ### Scenario 1
 - **Epidemic Protocol:** Low delivery probability (14.3%) with high dropped packets and overhead ratio.
-![Scenario 1 - Delivery Probability](images/image_2.jpeg)
-![Scenario 1 - Packets Dropped](images/image_3.png)
-![Scenario 1 - Overhead Ratio](images/image_4.png)
 - **SNF Protocol:** High delivery probability (99.6%) with low dropped packets and overhead ratio.
 - **Improved Epidemic:** Increased buffer size and patrolling units improved delivery probability to 30.9%.
 
+[Scenario 1 - Delivery Probability](images/image_5.png)
+
 ### Scenario 2
 - **Epidemic Protocol:** Lower delivery probability (9.6%) compared to Scenario 1.
-![Scenario 2 - Delivery Probability](images/image_5.png)
-![Scenario 2 - Packets Dropped](images/image_6.png)
-![Scenario 2 - Overhead Ratio](images/image_7.png)
 - **SNF Protocol:** Consistently high delivery probability (99.5%) with low dropped packets and overhead ratio.
 - **Improved Epidemic:** Increased buffer size and patrolling units improved delivery probability to 26.1%.
+
+![Scenario 2 - Packets Dropped](images/image_6.png)
 
 ## Conclusion
 The study demonstrates that the SNF protocol outperforms the Epidemic protocol in both emergency scenarios. SNF shows high delivery probability and low resource consumption, making it more suitable for emergency situations. Enhancements to the Epidemic protocol improved performance but still lagged behind SNF.
