@@ -39,7 +39,7 @@ The scenarios were implemented using the ONE simulator with the following setup:
 - **SNF Protocol:** High delivery probability (99.6%) with low dropped packets and overhead ratio.
 - **Improved Epidemic:** Increased buffer size and patrolling units improved delivery probability to 30.9%.
 
-[Scenario 1 - Delivery Probability](images/image_5.png)
+![Scenario 2 - Packets Dropped](images/image_5.png)
 
 ### Scenario 2
 - **Epidemic Protocol:** Lower delivery probability (9.6%) compared to Scenario 1.
